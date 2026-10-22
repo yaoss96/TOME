@@ -1,0 +1,36 @@
+{
+ "engine": "dac21_gathered_zcu",
+ "graph": "EPA.mtx",
+ "N": 4772,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dac21t_zcu.bit",
+ "inst": "144bb2606ea1c98d",
+ "inputs": "forced",
+ "prows": 4,
+ "prep": 150,
+ "kernel": {
+  "idle_w": 10.67965853658538,
+  "run_w": 11.267156111929264,
+  "dyn_w": 0.5874975753438836,
+  "duty": 0.975591231922846,
+  "span_s": 7.363120794296265,
+  "cycles": 4,
+  "cycle_busy_ms": 1795.8490216260543,
+  "samples_idle": 164,
+  "samples_run": 679
+ },
+ "host": {
+  "idle_w": 10.658682926829261,
+  "run_w": 11.018406367041221,
+  "dyn_w": 0.35972344021196,
+  "duty": 0.9904982085617858,
+  "span_s": 6.004281520843506,
+  "cycles": 646,
+  "cycle_busy_ms": 9.206238529560569,
+  "samples_idle": 164,
+  "samples_run": 534
+ }
+}

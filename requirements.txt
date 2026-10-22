@@ -1,0 +1,6 @@
+# sim/, analysis/ and data/ (any machine)
+numpy
+scipy
+matplotlib
+# host/ runs on the ZCU104's PYNQ 3.0 image, whose virtual environment
+# already provides pynq, numpy and scipy

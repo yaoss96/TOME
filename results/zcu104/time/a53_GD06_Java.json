@@ -1,0 +1,41 @@
+{
+ "engine": "a53_sdt",
+ "graph": "GD06_Java.mtx",
+ "N": 1538,
+ "n_graph": 1538,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "inst": "761fae1b41a8dc2e",
+ "total_ms": 587.4730200739577,
+ "hops": [
+  {
+   "hop": 1,
+   "ms": 16.266980033833534,
+   "nnz_out": 25600,
+   "overlap": 0.241328125,
+   "mass_recall": 0.963752026808651,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 2,
+   "ms": 277.7019200148061,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 3,
+   "ms": 293.5041200253181,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  }
+ ]
+}

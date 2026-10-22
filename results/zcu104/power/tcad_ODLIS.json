@@ -1,0 +1,22 @@
+{
+ "idle_w": 10.24030487804878,
+ "run_w": 11.295768472906438,
+ "dyn_w": 1.0554635948576578,
+ "duty": 0.999862267180962,
+ "span_s": 6.629215240478516,
+ "cycles": 1,
+ "cycle_busy_ms": 6628.302179975435,
+ "samples_idle": 164,
+ "samples_run": 609,
+ "engine": "tcad_a53topk",
+ "graph": "ODLIS.mtx",
+ "N": 2909,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "threads": 4,
+ "copies": 1,
+ "inst": "5db0f7e74a4bfcb1",
+ "inputs": "forced"
+}

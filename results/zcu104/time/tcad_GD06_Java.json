@@ -1,0 +1,88 @@
+{
+ "engine": "tcad23_zcu104+a53_topk",
+ "graph": "GD06_Java.mtx",
+ "N": 1538,
+ "n_graph": 1538,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "blocks": 2,
+ "copies": 4,
+ "threads": 4,
+ "reps": 1,
+ "fclk_mhz": 150.0,
+ "bit": "tcad_zcu_f187.bit",
+ "inst": "761fae1b41a8dc2e",
+ "kernel_ms": 3632.228170055896,
+ "sync_ms": 3.499029960948974,
+ "topk_ms": 35.788539971690625,
+ "total_ms": 3671.5157399885356,
+ "hops": [
+  {
+   "hop": 1,
+   "kernel_ms": 47.40587004926056,
+   "sync_ms": 1.1592800146900117,
+   "topk_ms": 5.0412199925631285,
+   "total_ms": 53.6063700565137,
+   "nnz_in": 621,
+   "nnz_out": 25600,
+   "c_nnz": [
+    262144,
+    131584
+   ],
+   "c_full": [
+    262144,
+    131584
+   ],
+   "clipped": false,
+   "overlap": 1.0,
+   "mass_recall": 0.9999999999999999,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 2,
+   "kernel_ms": 1774.124439980369,
+   "sync_ms": 1.2431899667717516,
+   "topk_ms": 15.806949988473207,
+   "total_ms": 1791.174579935614,
+   "nnz_in": 25600,
+   "nnz_out": 25600,
+   "c_nnz": [
+    262144,
+    131584
+   ],
+   "c_full": [
+    262144,
+    131584
+   ],
+   "clipped": false,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 3,
+   "kernel_ms": 1810.6978600262664,
+   "sync_ms": 1.0965599794872105,
+   "topk_ms": 14.94036999065429,
+   "total_ms": 1826.734789996408,
+   "nnz_in": 25600,
+   "nnz_out": 25600,
+   "c_nnz": [
+    262144,
+    131584
+   ],
+   "c_full": [
+    262144,
+    131584
+   ],
+   "clipped": false,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  }
+ ]
+}

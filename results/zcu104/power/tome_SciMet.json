@@ -1,0 +1,21 @@
+{
+ "idle_w": 10.773591463414613,
+ "run_w": 11.133954627949187,
+ "dyn_w": 0.36036316453457395,
+ "duty": 0.9933304599637193,
+ "span_s": 6.022897243499756,
+ "cycles": 47,
+ "cycle_busy_ms": 127.2920699829751,
+ "samples_idle": 164,
+ "samples_run": 551,
+ "engine": "tome_zcu104",
+ "graph": "SciMet.mtx",
+ "N": 3084,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "tome_zcu150.bit",
+ "inst": "859359a69722c3a3",
+ "inputs": "forced"
+}

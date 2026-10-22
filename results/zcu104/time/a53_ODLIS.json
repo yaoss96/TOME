@@ -1,0 +1,41 @@
+{
+ "engine": "a53_sdt",
+ "graph": "ODLIS.mtx",
+ "N": 2909,
+ "n_graph": 2909,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "inst": "5db0f7e74a4bfcb1",
+ "total_ms": 1170.4870199901052,
+ "hops": [
+  {
+   "hop": 1,
+   "ms": 44.11888000322506,
+   "nnz_out": 25600,
+   "overlap": 0.24367187500000004,
+   "mass_recall": 0.9630397004104634,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 2,
+   "ms": 546.2004599976353,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 3,
+   "ms": 580.1676799892448,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  }
+ ]
+}

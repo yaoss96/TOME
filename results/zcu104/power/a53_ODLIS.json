@@ -1,0 +1,21 @@
+{
+ "idle_w": 9.681317073170712,
+ "run_w": 10.44795895522392,
+ "dyn_w": 0.7666418820532073,
+ "duty": 0.9999785692707164,
+ "span_s": 6.400519847869873,
+ "cycles": 5,
+ "cycle_busy_ms": 1280.0765360123478,
+ "samples_idle": 164,
+ "samples_run": 536,
+ "engine": "a53_sdt",
+ "graph": "ODLIS.mtx",
+ "N": 2909,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "pl_gated": true,
+ "inst": "5db0f7e74a4bfcb1",
+ "inputs": "forced"
+}

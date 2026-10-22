@@ -1,0 +1,56 @@
+{
+ "engine": "dytopk_gathered_zcu",
+ "graph": "EPA.mtx",
+ "N": 4772,
+ "n_graph": 4772,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dytopk_zcu_p8.bit",
+ "inst": "144bb2606ea1c98d",
+ "kernel_ms": 313.06394963758066,
+ "pack_ms": 8211.648319324013,
+ "host_ms": 2290.482240205165,
+ "hops": [
+  {
+   "hop": 1,
+   "kernel_ms": 17.0824597007595,
+   "pack_ms": 450.16782003222033,
+   "host_ms": 607.0773493265733,
+   "launches": 256,
+   "streamed_entries": 2915692,
+   "nnz_out": 812,
+   "overlap": 0.031718750000000004,
+   "mass_recall": 0.7280394314700993,
+   "overlap_tie": 0.031718750000000004,
+   "mass_tie": 0.7280394314700991
+  },
+  {
+   "hop": 2,
+   "kernel_ms": 147.83482975326478,
+   "pack_ms": 3872.428209579084,
+   "host_ms": 843.0669106310233,
+   "launches": 256,
+   "streamed_entries": 122163200,
+   "nnz_out": 25600,
+   "overlap": 0.403046875,
+   "mass_recall": 0.7806846230902028,
+   "overlap_tie": 0.403046875,
+   "mass_tie": 0.8073156559344289
+  },
+  {
+   "hop": 3,
+   "kernel_ms": 148.14666018355638,
+   "pack_ms": 3889.0522897127084,
+   "host_ms": 840.3379802475683,
+   "launches": 256,
+   "streamed_entries": 122163200,
+   "nnz_out": 25487,
+   "overlap": 0.77390625,
+   "mass_recall": 0.9489005923083127,
+   "overlap_tie": 0.77390625,
+   "mass_tie": 0.963569535846062
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "engine": "dytopk_gathered_zcu",
+ "graph": "Erdos972.mtx",
+ "N": 5488,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dytopk_zcu_p8.bit",
+ "inst": "b0d7c038015f03f2",
+ "inputs": "forced",
+ "prows": 4,
+ "prep": 150,
+ "kernel": {
+  "idle_w": 10.72872560975609,
+  "run_w": 12.349043697478995,
+  "dyn_w": 1.6203180877229055,
+  "duty": 0.954070139636803,
+  "span_s": 6.483770370483398,
+  "cycles": 8,
+  "cycle_busy_ms": 773.2464628425078,
+  "samples_idle": 164,
+  "samples_run": 595
+ },
+ "host": {
+  "idle_w": 10.717951219512178,
+  "run_w": 11.007902985074669,
+  "dyn_w": 0.28995176556249014,
+  "duty": 0.996806584282666,
+  "span_s": 6.009418249130249,
+  "cycles": 1036,
+  "cycle_busy_ms": 5.782073048688651,
+  "samples_idle": 164,
+  "samples_run": 536
+ }
+}

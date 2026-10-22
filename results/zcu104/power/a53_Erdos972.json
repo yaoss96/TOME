@@ -1,0 +1,21 @@
+{
+ "idle_w": 9.789343558282205,
+ "run_w": 10.516638364779894,
+ "dyn_w": 0.7272948064976887,
+ "duty": 0.9999827518098059,
+ "span_s": 7.509265661239624,
+ "cycles": 3,
+ "cycle_busy_ms": 2503.0453799990937,
+ "samples_idle": 163,
+ "samples_run": 636,
+ "engine": "a53_sdt",
+ "graph": "Erdos972.mtx",
+ "N": 5488,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "pl_gated": true,
+ "inst": "b0d7c038015f03f2",
+ "inputs": "forced"
+}

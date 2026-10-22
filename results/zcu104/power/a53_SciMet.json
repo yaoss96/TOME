@@ -1,0 +1,21 @@
+{
+ "idle_w": 9.681658536585344,
+ "run_w": 10.419380546075132,
+ "dyn_w": 0.7377220094897883,
+ "duty": 0.9999792705186018,
+ "span_s": 6.936527490615845,
+ "cycles": 5,
+ "cycle_busy_ms": 1387.276739999652,
+ "samples_idle": 164,
+ "samples_run": 586,
+ "engine": "a53_sdt",
+ "graph": "SciMet.mtx",
+ "N": 3084,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "pl_gated": true,
+ "inst": "859359a69722c3a3",
+ "inputs": "forced"
+}

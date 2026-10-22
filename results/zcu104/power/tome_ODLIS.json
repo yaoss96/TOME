@@ -1,0 +1,21 @@
+{
+ "idle_w": 10.904310975609743,
+ "run_w": 11.2316980108499,
+ "dyn_w": 0.32738703524015733,
+ "duty": 0.9937827750643344,
+ "span_s": 6.03778862953186,
+ "cycles": 44,
+ "cycle_busy_ms": 136.36932589791036,
+ "samples_idle": 164,
+ "samples_run": 553,
+ "engine": "tome_zcu104",
+ "graph": "ODLIS.mtx",
+ "N": 2909,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "tome_zcu150.bit",
+ "inst": "5db0f7e74a4bfcb1",
+ "inputs": "forced"
+}

@@ -1,0 +1,22 @@
+{
+ "idle_w": 10.094530487804873,
+ "run_w": 11.222345509893483,
+ "dyn_w": 1.12781502208861,
+ "duty": 0.999882553783427,
+ "span_s": 7.127968072891235,
+ "cycles": 1,
+ "cycle_busy_ms": 7127.130920009222,
+ "samples_idle": 164,
+ "samples_run": 657,
+ "engine": "tcad_a53topk",
+ "graph": "SciMet.mtx",
+ "N": 3084,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "threads": 4,
+ "copies": 1,
+ "inst": "859359a69722c3a3",
+ "inputs": "forced"
+}

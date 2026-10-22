@@ -1,0 +1,36 @@
+{
+ "engine": "dac21_gathered_zcu",
+ "graph": "SciMet.mtx",
+ "N": 3084,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dac21t_zcu.bit",
+ "inst": "859359a69722c3a3",
+ "inputs": "forced",
+ "prows": 4,
+ "prep": 150,
+ "kernel": {
+  "idle_w": 10.74874390243902,
+  "run_w": 11.317346786248157,
+  "dyn_w": 0.5686028838091364,
+  "duty": 0.9712530926108709,
+  "span_s": 7.257403373718262,
+  "cycles": 5,
+  "cycle_busy_ms": 1409.755094209686,
+  "samples_idle": 164,
+  "samples_run": 669
+ },
+ "host": {
+  "idle_w": 10.619134146341471,
+  "run_w": 11.048136704119896,
+  "dyn_w": 0.4290025577784249,
+  "duty": 0.9899058447285323,
+  "span_s": 6.000028610229492,
+  "cycles": 1027,
+  "cycle_busy_ms": 5.783313914123259,
+  "samples_idle": 164,
+  "samples_run": 534
+ }
+}

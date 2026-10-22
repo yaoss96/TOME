@@ -1,0 +1,36 @@
+{
+ "engine": "dac21_gathered_zcu",
+ "graph": "ODLIS.mtx",
+ "N": 2909,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dac21t_zcu.bit",
+ "inst": "5db0f7e74a4bfcb1",
+ "inputs": "forced",
+ "prows": 4,
+ "prep": 150,
+ "kernel": {
+  "idle_w": 10.752932926829251,
+  "run_w": 11.197700182815348,
+  "dyn_w": 0.4447672559860969,
+  "duty": 0.9724227465423744,
+  "span_s": 6.000580787658691,
+  "cycles": 4,
+  "cycle_busy_ms": 1458.7753125961171,
+  "samples_idle": 164,
+  "samples_run": 547
+ },
+ "host": {
+  "idle_w": 10.632707317073157,
+  "run_w": 11.02426029962551,
+  "dyn_w": 0.39155298255235316,
+  "duty": 0.984506354098885,
+  "span_s": 6.004483461380005,
+  "cycles": 1087,
+  "cycle_busy_ms": 5.4383184184087225,
+  "samples_idle": 164,
+  "samples_run": 534
+ }
+}

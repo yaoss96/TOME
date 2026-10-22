@@ -1,0 +1,41 @@
+{
+ "engine": "a53_sdt",
+ "graph": "EPA.mtx",
+ "N": 4772,
+ "n_graph": 4772,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "inst": "144bb2606ea1c98d",
+ "total_ms": 1993.4872500016354,
+ "hops": [
+  {
+   "hop": 1,
+   "ms": 91.4633899810724,
+   "nnz_out": 25600,
+   "overlap": 0.1153515625,
+   "mass_recall": 0.9325906132639645,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 2,
+   "ms": 918.0985600105487,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 3,
+   "ms": 983.9253000100143,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "idle_w": 10.839823170731705,
+ "run_w": 11.155817028985524,
+ "dyn_w": 0.31599385825381887,
+ "duty": 0.9951150285022863,
+ "span_s": 6.033221006393433,
+ "cycles": 33,
+ "cycle_busy_ms": 181.931784658721,
+ "samples_idle": 164,
+ "samples_run": 552,
+ "engine": "tome_zcu104",
+ "graph": "Erdos972.mtx",
+ "N": 5488,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "tome_zcu150.bit",
+ "inst": "b0d7c038015f03f2",
+ "inputs": "forced"
+}

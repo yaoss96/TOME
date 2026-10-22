@@ -1,0 +1,36 @@
+{
+ "engine": "dytopk_gathered_zcu",
+ "graph": "ODLIS.mtx",
+ "N": 2909,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dytopk_zcu_p8.bit",
+ "inst": "5db0f7e74a4bfcb1",
+ "inputs": "forced",
+ "prows": 4,
+ "prep": 150,
+ "kernel": {
+  "idle_w": 10.850298780487808,
+  "run_w": 12.309469458987792,
+  "dyn_w": 1.4591706784999836,
+  "duty": 0.9284794609983548,
+  "span_s": 6.254477262496948,
+  "cycles": 13,
+  "cycle_busy_ms": 446.7041290392025,
+  "samples_idle": 164,
+  "samples_run": 573
+ },
+ "host": {
+  "idle_w": 10.722256097560974,
+  "run_w": 10.97516417910454,
+  "dyn_w": 0.25290808154356625,
+  "duty": 0.9957349810944799,
+  "span_s": 6.002136707305908,
+  "cycles": 1457,
+  "cycle_busy_ms": 4.101947481658018,
+  "samples_idle": 164,
+  "samples_run": 536
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "idle_w": 10.095603658536577,
+ "run_w": 11.215699329983256,
+ "dyn_w": 1.1200956714466788,
+ "duty": 0.999932362829603,
+ "span_s": 12.703567743301392,
+ "cycles": 1,
+ "cycle_busy_ms": 12702.708509925287,
+ "samples_idle": 164,
+ "samples_run": 1194,
+ "engine": "tcad_a53topk",
+ "graph": "Erdos972.mtx",
+ "N": 5488,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "threads": 4,
+ "copies": 1,
+ "inst": "b0d7c038015f03f2",
+ "inputs": "forced"
+}

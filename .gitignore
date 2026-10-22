@@ -1,0 +1,24 @@
+# build output (scripts/build_zcu104.sh) and tool scratch
+build/
+cmp/
+.Xil/
+*.jou
+*.log
+*.str
+vitis_hls.log
+
+# bitstreams are build products
+*.bit
+*.hwh
+*.xsa
+
+# downloaded graphs (data/get_graphs.py)
+data/graphs/
+
+# Python
+__pycache__/
+*.pyc
+
+# generated figures
+*.pdf
+*.png

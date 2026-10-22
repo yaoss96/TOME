@@ -1,0 +1,36 @@
+{
+ "engine": "dac21_gathered_zcu",
+ "graph": "email.mtx",
+ "N": 1133,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dac21t_zcu.bit",
+ "inst": "0ea11e668182b6cb",
+ "inputs": "forced",
+ "prows": 4,
+ "prep": 150,
+ "kernel": {
+  "idle_w": 10.748030487804872,
+  "run_w": 11.15071781305116,
+  "dyn_w": 0.4026873252462888,
+  "duty": 0.9654892228247278,
+  "span_s": 6.180939197540283,
+  "cycles": 6,
+  "cycle_busy_ms": 994.6050303600108,
+  "samples_idle": 164,
+  "samples_run": 567
+ },
+ "host": {
+  "idle_w": 10.750420731707317,
+  "run_w": 10.965412313432847,
+  "dyn_w": 0.21499158172552946,
+  "duty": 0.9818043577913,
+  "span_s": 6.002325773239136,
+  "cycles": 1912,
+  "cycle_busy_ms": 3.0821702934357833,
+  "samples_idle": 164,
+  "samples_run": 536
+ }
+}

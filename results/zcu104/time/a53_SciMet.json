@@ -1,0 +1,41 @@
+{
+ "engine": "a53_sdt",
+ "graph": "SciMet.mtx",
+ "N": 3084,
+ "n_graph": 3084,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "inst": "859359a69722c3a3",
+ "total_ms": 1255.298140051309,
+ "hops": [
+  {
+   "hop": 1,
+   "ms": 48.5914500313811,
+   "nnz_out": 25600,
+   "overlap": 0.1928125,
+   "mass_recall": 0.9514035154887784,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 2,
+   "ms": 579.8380100168288,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 3,
+   "ms": 626.8686800030991,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  }
+ ]
+}

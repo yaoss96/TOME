@@ -1,0 +1,36 @@
+{
+ "engine": "dytopk_gathered_zcu",
+ "graph": "SciMet.mtx",
+ "N": 3084,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dytopk_zcu_p8.bit",
+ "inst": "859359a69722c3a3",
+ "inputs": "forced",
+ "prows": 4,
+ "prep": 150,
+ "kernel": {
+  "idle_w": 10.84389634146341,
+  "run_w": 12.368675090252687,
+  "dyn_w": 1.5247787487892772,
+  "duty": 0.9306160183153747,
+  "span_s": 6.056180715560913,
+  "cycles": 12,
+  "cycle_busy_ms": 469.6648986428045,
+  "samples_idle": 164,
+  "samples_run": 554
+ },
+ "host": {
+  "idle_w": 10.743085365853652,
+  "run_w": 10.981093457943976,
+  "dyn_w": 0.2380080920903236,
+  "duty": 0.9956905673284676,
+  "span_s": 6.003224611282349,
+  "cycles": 1410,
+  "cycle_busy_ms": 4.239258240431163,
+  "samples_idle": 164,
+  "samples_run": 535
+ }
+}

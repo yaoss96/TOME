@@ -1,0 +1,21 @@
+{
+ "idle_w": 10.899975609756092,
+ "run_w": 11.10857142857144,
+ "dyn_w": 0.20859581881534695,
+ "duty": 0.9871407176272515,
+ "span_s": 6.0387046337127686,
+ "cycles": 93,
+ "cycle_busy_ms": 64.09732500712077,
+ "samples_idle": 164,
+ "samples_run": 553,
+ "engine": "tome_zcu104",
+ "graph": "email.mtx",
+ "N": 1133,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "tome_zcu150.bit",
+ "inst": "0ea11e668182b6cb",
+ "inputs": "forced"
+}

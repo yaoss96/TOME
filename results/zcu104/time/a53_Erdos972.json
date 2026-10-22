@@ -1,0 +1,41 @@
+{
+ "engine": "a53_sdt",
+ "graph": "Erdos972.mtx",
+ "N": 5488,
+ "n_graph": 5488,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "inst": "b0d7c038015f03f2",
+ "total_ms": 2298.822669952642,
+ "hops": [
+  {
+   "hop": 1,
+   "ms": 115.71897001704201,
+   "nnz_out": 25600,
+   "overlap": 0.09996093750000001,
+   "mass_recall": 0.9425622011302304,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 2,
+   "ms": 1046.06949997833,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 3,
+   "ms": 1137.0341999572702,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  }
+ ]
+}

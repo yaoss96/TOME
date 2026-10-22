@@ -1,0 +1,21 @@
+{
+ "idle_w": 9.695353658536584,
+ "run_w": 10.507207956600357,
+ "dyn_w": 0.8118542980637731,
+ "duty": 0.9999806030617185,
+ "span_s": 6.598378658294678,
+ "cycles": 3,
+ "cycle_busy_ms": 2199.416889983695,
+ "samples_idle": 164,
+ "samples_run": 553,
+ "engine": "a53_sdt",
+ "graph": "EPA.mtx",
+ "N": 4772,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "pl_gated": true,
+ "inst": "144bb2606ea1c98d",
+ "inputs": "forced"
+}

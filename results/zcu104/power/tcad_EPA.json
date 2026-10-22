@@ -1,0 +1,22 @@
+{
+ "idle_w": 10.095823170731695,
+ "run_w": 10.936172781854564,
+ "dyn_w": 0.8403496111228694,
+ "duty": 0.9999444555039313,
+ "span_s": 15.869372606277466,
+ "cycles": 1,
+ "cycle_busy_ms": 15868.491149973124,
+ "samples_idle": 164,
+ "samples_run": 1499,
+ "engine": "tcad_a53topk",
+ "graph": "EPA.mtx",
+ "N": 4772,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "threads": 4,
+ "copies": 1,
+ "inst": "144bb2606ea1c98d",
+ "inputs": "forced"
+}

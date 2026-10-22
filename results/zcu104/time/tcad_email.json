@@ -1,0 +1,88 @@
+{
+ "engine": "tcad23_zcu104+a53_topk",
+ "graph": "email.mtx",
+ "N": 1133,
+ "n_graph": 1133,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "blocks": 2,
+ "copies": 4,
+ "threads": 4,
+ "reps": 1,
+ "fclk_mhz": 150.0,
+ "bit": "tcad_zcu_f187.bit",
+ "inst": "0ea11e668182b6cb",
+ "kernel_ms": 2669.273780018557,
+ "sync_ms": 3.5913699539378285,
+ "topk_ms": 15.304100001230836,
+ "total_ms": 2688.1692499737255,
+ "hops": [
+  {
+   "hop": 1,
+   "kernel_ms": 37.42431994760409,
+   "sync_ms": 1.1925899889320135,
+   "topk_ms": 4.572730045765638,
+   "total_ms": 43.18963998230174,
+   "nnz_in": 662,
+   "nnz_out": 25600,
+   "c_nnz": [
+    262144,
+    27904
+   ],
+   "c_full": [
+    262144,
+    27904
+   ],
+   "clipped": false,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 2,
+   "kernel_ms": 1302.608250058256,
+   "sync_ms": 1.1465299758128822,
+   "topk_ms": 5.2024899632669985,
+   "total_ms": 1308.957269997336,
+   "nnz_in": 25600,
+   "nnz_out": 25600,
+   "c_nnz": [
+    262144,
+    27904
+   ],
+   "c_full": [
+    262144,
+    27904
+   ],
+   "clipped": false,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 3,
+   "kernel_ms": 1329.2412100126967,
+   "sync_ms": 1.2522499891929328,
+   "topk_ms": 5.528879992198199,
+   "total_ms": 1336.0223399940878,
+   "nnz_in": 25600,
+   "nnz_out": 25600,
+   "c_nnz": [
+    262144,
+    27904
+   ],
+   "c_full": [
+    262144,
+    27904
+   ],
+   "clipped": false,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  }
+ ]
+}

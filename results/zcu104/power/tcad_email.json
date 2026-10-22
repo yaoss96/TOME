@@ -1,0 +1,22 @@
+{
+ "idle_w": 10.148993902439015,
+ "run_w": 11.214023841059612,
+ "dyn_w": 1.0650299386205972,
+ "duty": 0.9997872438184051,
+ "span_s": 8.155945777893066,
+ "cycles": 3,
+ "cycle_busy_ms": 2718.0701833373555,
+ "samples_idle": 164,
+ "samples_run": 755,
+ "engine": "tcad_a53topk",
+ "graph": "email.mtx",
+ "N": 1133,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "threads": 4,
+ "copies": 4,
+ "inst": "0ea11e668182b6cb",
+ "inputs": "forced"
+}

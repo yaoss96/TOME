@@ -1,0 +1,21 @@
+{
+ "idle_w": 10.916121951219504,
+ "run_w": 11.237018148820326,
+ "dyn_w": 0.3208961976008222,
+ "duty": 0.9894681130710322,
+ "span_s": 6.023325681686401,
+ "cycles": 74,
+ "cycle_busy_ms": 80.53903644149368,
+ "samples_idle": 164,
+ "samples_run": 551,
+ "engine": "tome_zcu104",
+ "graph": "GD06_Java.mtx",
+ "N": 1538,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "tome_zcu150.bit",
+ "inst": "761fae1b41a8dc2e",
+ "inputs": "forced"
+}

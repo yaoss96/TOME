@@ -1,0 +1,56 @@
+{
+ "engine": "dac21_gathered_zcu",
+ "graph": "GD06_Java.mtx",
+ "N": 1538,
+ "n_graph": 1538,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dac21t_zcu.bit",
+ "inst": "761fae1b41a8dc2e",
+ "kernel_ms": 471.7587598133832,
+ "pack_ms": 9517.08984997822,
+ "host_ms": 2284.4598696101457,
+ "hops": [
+  {
+   "hop": 1,
+   "kernel_ms": 77.7226000209339,
+   "pack_ms": 1508.9189599384554,
+   "host_ms": 632.8244407777674,
+   "launches": 256,
+   "streamed_entries": 955098,
+   "nnz_out": 24560,
+   "overlap": 0.9593359375,
+   "mass_recall": 0.9999975512260766,
+   "overlap_tie": 0.9593750000000001,
+   "mass_tie": 0.9999976921995123
+  },
+  {
+   "hop": 2,
+   "kernel_ms": 195.78167999861762,
+   "pack_ms": 4027.7523400145583,
+   "host_ms": 826.5054294024594,
+   "launches": 256,
+   "streamed_entries": 39372800,
+   "nnz_out": 25600,
+   "overlap": 0.9869531250000001,
+   "mass_recall": 0.999539098090679,
+   "overlap_tie": 0.9869531250000001,
+   "mass_tie": 0.9999894170760268
+  },
+  {
+   "hop": 3,
+   "kernel_ms": 198.2544797938317,
+   "pack_ms": 3980.418550025206,
+   "host_ms": 825.1299994299188,
+   "launches": 256,
+   "streamed_entries": 39372800,
+   "nnz_out": 25600,
+   "overlap": 0.9921093750000001,
+   "mass_recall": 0.9995746931626617,
+   "overlap_tie": 0.9921093750000001,
+   "mass_tie": 0.9999881492102648
+  }
+ ]
+}

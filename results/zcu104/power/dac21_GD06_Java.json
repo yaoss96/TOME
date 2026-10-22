@@ -1,0 +1,36 @@
+{
+ "engine": "dac21_gathered_zcu",
+ "graph": "GD06_Java.mtx",
+ "N": 1538,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "dac21t_zcu.bit",
+ "inst": "761fae1b41a8dc2e",
+ "inputs": "forced",
+ "prows": 4,
+ "prep": 150,
+ "kernel": {
+  "idle_w": 10.771713414634153,
+  "run_w": 11.18293495934961,
+  "dyn_w": 0.4112215447154579,
+  "duty": 0.9667633688492723,
+  "span_s": 6.690093278884888,
+  "cycles": 6,
+  "cycle_busy_ms": 1077.9561860351048,
+  "samples_idle": 164,
+  "samples_run": 615
+ },
+ "host": {
+  "idle_w": 10.619871951219519,
+  "run_w": 10.960614232209757,
+  "dyn_w": 0.34074228099023784,
+  "duty": 0.9880683068077558,
+  "span_s": 6.000630855560303,
+  "cycles": 1505,
+  "cycle_busy_ms": 3.939556923077636,
+  "samples_idle": 164,
+  "samples_run": 534
+ }
+}

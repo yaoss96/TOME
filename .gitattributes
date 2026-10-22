@@ -1,0 +1,2 @@
+# keep LF everywhere, so the shell, Tcl and Python scripts run on any checkout
+* text=auto eol=lf

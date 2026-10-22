@@ -1,0 +1,21 @@
+{
+ "idle_w": 9.719823170731715,
+ "run_w": 10.449844569288397,
+ "dyn_w": 0.7300213985566817,
+ "duty": 0.9999628449489056,
+ "span_s": 6.387781858444214,
+ "cycles": 10,
+ "cycle_busy_ms": 638.7544520082884,
+ "samples_idle": 164,
+ "samples_run": 534,
+ "engine": "a53_sdt",
+ "graph": "GD06_Java.mtx",
+ "N": 1538,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "pl_gated": true,
+ "inst": "761fae1b41a8dc2e",
+ "inputs": "forced"
+}

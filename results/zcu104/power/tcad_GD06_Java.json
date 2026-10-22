@@ -1,0 +1,22 @@
+{
+ "idle_w": 10.243713414634138,
+ "run_w": 11.298715339233063,
+ "dyn_w": 1.0550019245989244,
+ "duty": 0.9998227417506669,
+ "span_s": 7.359891891479492,
+ "cycles": 2,
+ "cycle_busy_ms": 3679.2936449637637,
+ "samples_idle": 164,
+ "samples_run": 678,
+ "engine": "tcad_a53topk",
+ "graph": "GD06_Java.mtx",
+ "N": 1538,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "threads": 4,
+ "copies": 4,
+ "inst": "761fae1b41a8dc2e",
+ "inputs": "forced"
+}

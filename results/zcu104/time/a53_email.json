@@ -1,0 +1,41 @@
+{
+ "engine": "a53_sdt",
+ "graph": "email.mtx",
+ "N": 1133,
+ "n_graph": 1133,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "threads": 4,
+ "inst": "0ea11e668182b6cb",
+ "total_ms": 433.57741995714605,
+ "hops": [
+  {
+   "hop": 1,
+   "ms": 12.503380014095455,
+   "nnz_out": 25600,
+   "overlap": 0.26496093750000005,
+   "mass_recall": 0.9557353955394645,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 2,
+   "ms": 204.8627999611199,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  },
+  {
+   "hop": 3,
+   "ms": 216.2112399819307,
+   "nnz_out": 25600,
+   "overlap": 1.0,
+   "mass_recall": 1.0,
+   "overlap_tie": 1.0,
+   "mass_tie": 1.0
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "idle_w": 10.918408536585352,
+ "run_w": 11.183365248226966,
+ "dyn_w": 0.2649567116416147,
+ "duty": 0.9950516783552189,
+ "span_s": 6.153960227966309,
+ "cycles": 35,
+ "cycle_busy_ms": 174.95738438197546,
+ "samples_idle": 164,
+ "samples_run": 564,
+ "engine": "tome_zcu104",
+ "graph": "EPA.mtx",
+ "N": 4772,
+ "M": 256,
+ "k": 100,
+ "hops_n": 3,
+ "fclk_mhz": 150.0,
+ "bit": "tome_zcu150.bit",
+ "inst": "144bb2606ea1c98d",
+ "inputs": "forced"
+}
